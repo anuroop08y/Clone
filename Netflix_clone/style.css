@@ -1,0 +1,113 @@
+*{
+    margin:0;
+    padding:0;
+     /* font-family: 'Poppins', sans-serif;  */
+}
+body{
+    background-color: black;
+}
+.main{
+    background-image: url('assets/images/bg.jpg');
+    height: 80vh;
+    background-position: center center;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size:max(1200px,100vw);
+}
+
+.main .container{
+    height:80vh;
+    width: 100%;
+    background-color: rgba(0,0,0);
+    opacity:0.64;
+    position: absolute;
+    top:0;
+    color:white;
+    text-align:center;
+
+}
+
+nav{
+    max-width: 60vw;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+}
+
+nav img{
+    width:14vw;
+    position:relative;
+    z-index:10;
+    color:red;
+}
+
+nav button{
+    position:relative;
+    z-index:10;
+}
+
+.main .hero{
+    color:white;
+    height:70vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    position:relative;
+    font-size:3vh;
+    font-family: 'Martel Sans', sans-serif;
+    gap:0.2vh;
+    padding:0 1vh;
+    text-align:center;
+}
+
+.hero> :first-child{
+    font-weight: 900;
+    font-size:min(5vh,5vw);
+    text-shadow: 0px 0px 10px black;
+}
+
+.hero> :nth-child(2){
+    font-weight: 400;
+    font-size:min(3vw,3vh);
+}
+
+.hero> :nth-child(3){
+    font-weight: 400;
+    font-size:min(3vw,3vh);
+}
+
+.separation{
+    height:0.5vh;
+    width:100%;
+    background-color:rgb(74, 73, 73);
+}
+
+.btn{
+    font-weight:bold;
+    padding:5px;
+    background-color:transparent;
+    color:white;
+    border:2px solid white;
+    border-radius: 3px;
+}
+
+.btn.red{
+    background-color: red;
+    color: white;
+    border: none;
+}
+#get-started{
+    padding: 8px;
+}
+.main .email-form input{
+    padding:5px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 3px;
+    font-size: 1.5vh;
+   
+}
